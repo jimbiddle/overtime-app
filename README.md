@@ -1,19 +1,20 @@
 # Overtime App
 
-Key req: Company needs documentation that salaried employees did or did not get OT each week. 
+## Key req: Company needs documentation that salaried employees did or did not get OT each week. 
 
-Post -> date:date rationale:text
-User -> devise
-AdminUser -> STI
+## Models
+- Post -> date:date rationale:text
+- User -> devise
+- AdminUser -> STI
 
-Feattures:
+## Features:
 
-Approval Workflow
-SMS sending -> link to approvel or OT input
-Administrate admin dashboard
-email summary to managers for approval
-needs to be documented if employee did not use OT
+- Approval Workflow
+- SMS sending -> link to approvel or OT input
+- Administrate admin dashboard
+- email summary to managers for approval
+- needs to be documented if employee did not use OT
 
-UR:
+## UI:
 
 Bootstrap -> formatting
